@@ -1,0 +1,39 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# LangGraph runtime data
+.langgraph_api/
+*.pckl
+store.vectors*
+
+# Project specific
+replacements.txt
+all-MiniLM-L6-v2/
+.msi
+output/
+CLAUDE.local.md
+.antigravity_cli/
